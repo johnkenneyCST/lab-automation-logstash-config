@@ -14,3 +14,6 @@
         - _vlad (hamilton robot)_
      
 - The goal is to build out a dev, test, and eventually prod environment for all of these.
+
+## Setup 
+TBD
