@@ -15,5 +15,6 @@
      
 - The goal is to build out a dev, test, and eventually prod environment for all of these.
 
-## Setup 
-TBD
+## Command For Running 
+1. Navigate to the bin within the root logstash-8.16.1 folder
+2. `logstash.bat --pipeline.workers 1 -f <path_to_config_file>`
