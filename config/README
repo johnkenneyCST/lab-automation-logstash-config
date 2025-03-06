@@ -1,1 +1,11 @@
-commands:
+## IMPORTANT 
+Date: 3/6/2025 
+### Overview:
+This readme is created to make it clear, at the time of writing we are doing a re-load of all logstash data and creating 2 distinct procedures for loading 
+all legacy data and having an automated methodology for loading real time data. 
+
+I have created a new *dev-legacy-load* (For loading all log files on a system) and *dev-automated* (Daily Real Time Loading) folder in the main config folder to implement this. 
+
+### Key Differences:
+- In *dev-legacy-load* it is configured to load all the systems data, includes all log files present
+- In *dev-automated* it is configured to load new files no older than that day.
